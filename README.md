@@ -20,3 +20,10 @@ $ git show HEAD@{5}
 ```
 $ git show master@{yesterday}
 ```
+## Git merge
+- Git merge 명령어는 두 브랜치를 병합 시킬 때 쓰이는 명령어 입니다. 브랜치 `master`와 `test` 가 있을 때, test -> master 브랜치로 병합하는 경우는 다음과 같습니다.
+
+```
+git checkout -b master
+git merge test
+```
